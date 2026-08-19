@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Migration archetype decision tree</title>
+  <desc id="desc">Decision tree for classifying integrations into direct, hybrid, security-constrained or remediation migration archetypes</desc>
+  <rect width="1600" height="900" fill="#f7fbff"/>
+  <rect width="1600" height="92" fill="#071a3a"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="64" y="58" font-size="34" font-weight="700" fill="#fff">DECISION TREE · выбор сценария миграции</text>
+    <text x="64" y="132" font-size="21" fill="#36536f">Классификация отделяет стандартный перенос от coexistence, security prerequisites и доработки приложений</text>
+
+    <rect x="560" y="185" width="480" height="90" rx="22" fill="#0b4e91"/>
+    <text x="800" y="222" font-size="21" font-weight="700" fill="#fff" text-anchor="middle">Есть legacy-специфичное поведение,</text>
+    <text x="800" y="250" font-size="21" font-weight="700" fill="#fff" text-anchor="middle">которое нельзя заменить прозрачно?</text>
+
+    <path d="M1040 230H1210" stroke="#5f9fcf" stroke-width="3"/>
+    <text x="1118" y="213" font-size="17" font-weight="700" fill="#2c77ac">YES</text>
+    <rect x="1210" y="175" width="300" height="110" rx="22" fill="#e8f2f8" stroke="#a5bdce" stroke-width="2"/>
+    <text x="1360" y="216" font-size="24" font-weight="700" fill="#334f65" text-anchor="middle">M4</text>
+    <text x="1360" y="247" font-size="18" fill="#4f687b" text-anchor="middle">Application Remediation</text>
+
+    <path d="M800 275V360" stroke="#5f9fcf" stroke-width="3"/>
+    <text x="820" y="326" font-size="17" font-weight="700" fill="#2c77ac">NO</text>
+    <rect x="560" y="360" width="480" height="90" rx="22" fill="#dcefff" stroke="#7db6de" stroke-width="2"/>
+    <text x="800" y="397" font-size="21" font-weight="700" fill="#173c62" text-anchor="middle">Требуются дополнительные сертификаты,</text>
+    <text x="800" y="425" font-size="21" font-weight="700" fill="#173c62" text-anchor="middle">ключи или специальные проверки ИБ?</text>
+
+    <path d="M1040 405H1210" stroke="#5f9fcf" stroke-width="3"/>
+    <text x="1118" y="388" font-size="17" font-weight="700" fill="#2c77ac">YES</text>
+    <rect x="1210" y="350" width="300" height="110" rx="22" fill="#dff2ff" stroke="#8abfe4" stroke-width="2"/>
+    <text x="1360" y="391" font-size="24" font-weight="700" fill="#123b62" text-anchor="middle">M3</text>
+    <text x="1360" y="422" font-size="18" fill="#365b78" text-anchor="middle">Security-Constrained</text>
+
+    <path d="M800 450V535" stroke="#5f9fcf" stroke-width="3"/>
+    <text x="820" y="501" font-size="17" font-weight="700" fill="#2c77ac">NO</text>
+    <rect x="560" y="535" width="480" height="90" rx="22" fill="#dcefff" stroke="#7db6de" stroke-width="2"/>
+    <text x="800" y="572" font-size="21" font-weight="700" fill="#173c62" text-anchor="middle">Все зависимые участники могут перейти</text>
+    <text x="800" y="600" font-size="21" font-weight="700" fill="#173c62" text-anchor="middle">в одном окне изменений?</text>
+
+    <path d="M560 580H385" stroke="#5f9fcf" stroke-width="3"/>
+    <text x="472" y="563" font-size="17" font-weight="700" fill="#2c77ac">NO</text>
+    <rect x="90" y="525" width="295" height="110" rx="22" fill="#e4f2fc" stroke="#95c3e4" stroke-width="2"/>
+    <text x="237" y="566" font-size="24" font-weight="700" fill="#123b62" text-anchor="middle">M2</text>
+    <text x="237" y="597" font-size="18" fill="#365b78" text-anchor="middle">Hybrid Coexistence</text>
+
+    <path d="M800 625V715" stroke="#5f9fcf" stroke-width="3"/>
+    <text x="820" y="677" font-size="17" font-weight="700" fill="#2c77ac">YES</text>
+    <rect x="650" y="715" width="300" height="110" rx="22" fill="#cfeaff" stroke="#70b1df" stroke-width="2"/>
+    <text x="800" y="756" font-size="24" font-weight="700" fill="#0f3b63" text-anchor="middle">M1</text>
+    <text x="800" y="787" font-size="18" fill="#315d7e" text-anchor="middle">Direct Migration</text>
+
+    <text x="95" y="760" font-size="18" fill="#4c6d88">Archetype определяет способ миграции, но не номер волны.</text>
+    <text x="95" y="793" font-size="18" fill="#4c6d88">Wave assignment учитывает readiness, risk, dependencies и business criticality.</text>
+  </g>
+</svg>
