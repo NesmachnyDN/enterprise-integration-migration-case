@@ -160,6 +160,7 @@ flowchart LR
 
 | Раздел | Содержание |
 |---|---|
+| [Архитектурные диаграммы](architecture/) | Исходники ключевых представлений: AS-IS, transition, target, decision tree, migration factory и rollback |
 | [Context & Drivers](docs/context-and-drivers.md) | Проблема, ограничения и архитектурные драйверы |
 | [Architecture](docs/architecture.md) | AS-IS, переходное и целевое состояния |
 | [Migration Strategy](docs/migration-strategy.md) | Типовые сценарии, дерево решений и жизненный цикл |
