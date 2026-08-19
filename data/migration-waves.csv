@@ -1,0 +1,6 @@
+wave,objective,integration_ids,dominant_archetypes,entry_principle
+Pilot,Validate migration process and effort model,"INT-001;INT-002",M1,Representative low-risk integrations with complete readiness
+Wave 1,Establish repeatable direct-migration throughput,"INT-003;INT-004;INT-005;INT-010;INT-011;INT-013",M1,Independent READY integrations with limited shared dependencies
+Wave 2,Introduce controlled complexity,"INT-006;INT-007;INT-008;INT-009;INT-012;INT-016","M1;M2;M3",Security and coordination prerequisites resolved before cutover
+Wave 3,Migrate dependent and hybrid interactions,"INT-014;INT-015;INT-017;INT-020","M1;M2;M3",Dependency-aware planning and explicit coexistence retirement
+Wave 4,Complete application remediation,"INT-018;INT-019",M4,Application changes implemented and new contracts accepted
