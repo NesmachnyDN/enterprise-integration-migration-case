@@ -1,0 +1,21 @@
+id,source_system,target_system,pattern,security_profile,special_condition,complexity,archetype,readiness,proposed_wave
+INT-001,HR Platform,Enterprise Data Warehouse,File,Standard,None,LOW,M1,READY,Pilot
+INT-002,ERP Core,Enterprise Data Warehouse,File,Standard,None,LOW,M1,READY,Pilot
+INT-003,Master Data Hub,ERP Core,Messaging,Standard,None,LOW,M1,READY,Wave 1
+INT-004,Customer Portal,Notification Service,HTTPS,Standard,None,LOW,M1,READY,Wave 1
+INT-005,ERP Core,Document Management,File,Standard,None,LOW,M1,READY,Wave 1
+INT-006,Procurement Platform,ERP Core,Messaging,Standard,Shared legacy endpoint,MEDIUM,M2,CONDITIONAL,Wave 2
+INT-007,Partner Gateway,Document Management,SFTP,Enhanced,Security prerequisites,MEDIUM,M1+M3,READY,Wave 2
+INT-008,Document Management,Enterprise Archive,File,Enhanced,Security prerequisites,MEDIUM,M1+M3,CONDITIONAL,Wave 2
+INT-009,Finance Hub,Reporting Platform,Messaging,Enhanced,Security prerequisites,MEDIUM,M1+M3,CONDITIONAL,Wave 2
+INT-010,Finance Hub,Enterprise Data Warehouse,File,Standard,None,LOW,M1,READY,Wave 1
+INT-011,Master Data Hub,Customer Portal,HTTPS,Standard,None,LOW,M1,READY,Wave 1
+INT-012,Operations Control,Enterprise Data Warehouse,File,Standard,Change window pending,LOW,M1,CONDITIONAL,Wave 2
+INT-013,Reporting Platform,Enterprise Archive,File,Standard,None,LOW,M1,READY,Wave 1
+INT-014,Partner Gateway,ERP Core,SFTP,Standard,Shared legacy endpoint,MEDIUM,M2,CONDITIONAL,Wave 3
+INT-015,Partner Gateway,Finance Hub,SFTP,Enhanced,Shared endpoint and security prerequisites,HIGH,M2+M3,CONDITIONAL,Wave 3
+INT-016,ERP Core,Analytics Platform,Messaging,Standard,None,MEDIUM,M1,READY,Wave 2
+INT-017,Enterprise Data Warehouse,Analytics Platform,File,Standard,High volume,MEDIUM,M1,CONDITIONAL,Wave 3
+INT-018,Operations Control,Document Management,File,Standard,Custom preprocessing,HIGH,M4,BLOCKED,Wave 4
+INT-019,HR Platform,Notification Service,File,Standard,Legacy-specific packaging,HIGH,M4,BLOCKED,Wave 4
+INT-020,Document Management,Partner Gateway,SFTP,Enhanced,Shared endpoint and security prerequisites,HIGH,M2+M3,CONDITIONAL,Wave 3
