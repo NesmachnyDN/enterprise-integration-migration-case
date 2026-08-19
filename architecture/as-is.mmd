@@ -1,0 +1,25 @@
+flowchart LR
+    subgraph RA[Регион A]
+        A1[Бизнес-система A] --> LA1[Legacy Endpoint Agent]
+        A2[Бизнес-система B] --> LA2[Legacy Endpoint Agent]
+        LA1 --> R1[Региональный транспортный узел]
+        LA2 --> R1
+    end
+
+    subgraph CORE[Центральный контур]
+        C[Central Messaging Hub]
+        ROUTE[Маршрутизация]
+        ARCH[Транспортный архив]
+        C --- ROUTE
+        C --- ARCH
+    end
+
+    subgraph RB[Регион B]
+        R2[Региональный транспортный узел] --> LA3[Legacy Endpoint Agent]
+        R2 --> LA4[Legacy Endpoint Agent]
+        LA3 --> B1[Бизнес-система C]
+        LA4 --> B2[Бизнес-система D]
+    end
+
+    R1 <--> C
+    C <--> R2
