@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">AS-IS integration landscape</title>
+  <desc id="desc">Synthetic legacy integration landscape with endpoint agents, regional transport nodes and a central messaging hub</desc>
+  <rect width="1600" height="900" fill="#f7fbff"/>
+  <rect width="1600" height="92" fill="#071a3a"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="64" y="58" font-size="34" font-weight="700" fill="#fff">AS-IS · унаследованный интеграционный ландшафт</text>
+    <text x="64" y="132" font-size="21" fill="#36536f">Распределенная транспортная среда с локальными агентами, региональными узлами и централизованной маршрутизацией</text>
+
+    <g fill="#fff" stroke="#b9d7ee" stroke-width="2">
+      <rect x="74" y="210" width="220" height="86" rx="18"/>
+      <rect x="74" y="360" width="220" height="86" rx="18"/>
+      <rect x="74" y="510" width="220" height="86" rx="18"/>
+      <rect x="1306" y="210" width="220" height="86" rx="18"/>
+      <rect x="1306" y="360" width="220" height="86" rx="18"/>
+      <rect x="1306" y="510" width="220" height="86" rx="18"/>
+    </g>
+    <g fill="#163b63" font-size="20" font-weight="700" text-anchor="middle">
+      <text x="184" y="262">ERP Core</text>
+      <text x="184" y="412">Finance Hub</text>
+      <text x="184" y="562">HR Platform</text>
+      <text x="1416" y="262">DWH</text>
+      <text x="1416" y="412">Document Mgmt</text>
+      <text x="1416" y="562">Reporting</text>
+    </g>
+
+    <g fill="#e8f4fd" stroke="#8bbde1" stroke-width="2">
+      <rect x="350" y="220" width="205" height="66" rx="15"/>
+      <rect x="350" y="370" width="205" height="66" rx="15"/>
+      <rect x="350" y="520" width="205" height="66" rx="15"/>
+      <rect x="1045" y="220" width="205" height="66" rx="15"/>
+      <rect x="1045" y="370" width="205" height="66" rx="15"/>
+      <rect x="1045" y="520" width="205" height="66" rx="15"/>
+    </g>
+    <g fill="#173c62" font-size="17" font-weight="700" text-anchor="middle">
+      <text x="452" y="260">Legacy Endpoint</text>
+      <text x="452" y="410">Legacy Endpoint</text>
+      <text x="452" y="560">Shared Endpoint</text>
+      <text x="1147" y="260">Legacy Endpoint</text>
+      <text x="1147" y="410">Legacy Endpoint</text>
+      <text x="1147" y="560">Shared Endpoint</text>
+    </g>
+
+    <rect x="620" y="230" width="170" height="330" rx="24" fill="#dbeeff" stroke="#6ba7d4" stroke-width="2.5"/>
+    <rect x="810" y="230" width="170" height="330" rx="24" fill="#dbeeff" stroke="#6ba7d4" stroke-width="2.5"/>
+    <g fill="#0d3761" font-size="19" font-weight="700" text-anchor="middle">
+      <text x="705" y="274">Региональный</text><text x="705" y="300">узел A</text>
+      <text x="895" y="274">Региональный</text><text x="895" y="300">узел B</text>
+    </g>
+
+    <rect x="675" y="352" width="250" height="98" rx="22" fill="#0b4e91"/>
+    <text x="800" y="392" font-size="22" font-weight="700" fill="#fff" text-anchor="middle">Central Messaging Hub</text>
+    <text x="800" y="421" font-size="16" fill="#cfe7fb" text-anchor="middle">routing · delivery · archive</text>
+
+    <g stroke="#6e9fc5" stroke-width="3" fill="none">
+      <path d="M294 253H350M555 253H620"/>
+      <path d="M294 403H350M555 403H620"/>
+      <path d="M294 553H350M555 553H620"/>
+      <path d="M980 253H1045M1250 253H1306"/>
+      <path d="M980 403H1045M1250 403H1306"/>
+      <path d="M980 553H1045M1250 553H1306"/>
+      <path d="M790 401H810"/>
+    </g>
+
+    <g>
+      <rect x="72" y="690" width="1456" height="132" rx="22" fill="#eef6fc"/>
+      <text x="105" y="730" font-size="20" font-weight="700" fill="#173c62">Архитектурные проблемы</text>
+      <text x="105" y="768" font-size="18" fill="#36536f">• общие endpoint-компоненты создают скрытые зависимости   • фактическая конфигурация может расходиться с документацией</text>
+      <text x="105" y="802" font-size="18" fill="#36536f">• локальная обработка смешана с транспортом   • единое переключение всех участников невозможно</text>
+    </g>
+  </g>
+</svg>
