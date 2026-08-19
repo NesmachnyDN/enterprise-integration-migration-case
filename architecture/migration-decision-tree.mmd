@@ -1,0 +1,14 @@
+flowchart TD
+    S[Начало оценки взаимодействия] --> L{Есть зависимость от логики старой платформы?}
+    L -->|Да| M4[M4 Application Remediation]
+    L -->|Нет| SEC{Есть дополнительные требования ИБ?}
+    SEC -->|Да| M3[M3 Security-Constrained Migration]
+    SEC -->|Нет| WIN{Все зависимые участники могут мигрировать в одном окне?}
+    WIN -->|Нет| M2[M2 Hybrid Coexistence]
+    WIN -->|Да| M1[M1 Direct Migration]
+
+    M1 --> R[Оценка готовности]
+    M2 --> R
+    M3 --> R
+    M4 --> R
+    R --> W[Назначение волны миграции]
