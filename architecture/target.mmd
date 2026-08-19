@@ -1,0 +1,24 @@
+flowchart LR
+    subgraph APPS[Прикладные системы]
+        A[Система A]
+        B[Система B]
+        C[Система C]
+        D[Система D]
+    end
+
+    A --> N1[Lightweight Integration Agent]
+    B --> N2[Lightweight Integration Agent]
+    C --> N3[Lightweight Integration Agent]
+    D --> N4[Lightweight Integration Agent]
+
+    N1 --> EIP[Enterprise Integration Platform]
+    N2 --> EIP
+    EIP --> N3
+    EIP --> N4
+
+    EIP --- ROUTE[Маршрутизация]
+    EIP --- GD[Гарантированная доставка]
+    EIP --- PROC[Обработка сообщений]
+    EIP --- ADP[Интеграционные адаптеры]
+    EIP --- MON[Мониторинг и аудит]
+    EIP --- SEC[Интеграция с ИБ]
