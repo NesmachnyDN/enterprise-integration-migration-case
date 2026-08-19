@@ -1,0 +1,23 @@
+flowchart LR
+    subgraph LEGACY[Унаследованный контур]
+        A1[Не мигрировавшая система A] --> L1[Legacy Endpoint Agent]
+        A2[Не мигрировавшая система B] --> L2[Legacy Endpoint Agent]
+        L1 --> LP[Legacy Messaging Platform]
+        L2 --> LP
+    end
+
+    LP <--> BR[Compatibility Bridge]
+
+    subgraph TARGET[Целевой контур]
+        BR <--> EIP[Enterprise Integration Platform]
+        EIP --> N1[Lightweight Integration Agent]
+        EIP --> N2[Lightweight Integration Agent]
+        N1 --> B1[Мигрировавшая система C]
+        N2 --> B2[Мигрировавшая система D]
+    end
+
+    EIP --- MON[Мониторинг и аудит]
+    EIP --- SEC[Интеграция с ИБ]
+
+    NOTE[Bridge является временным компонентом и удаляется после завершения зависимых миграций]
+    BR -.-> NOTE
