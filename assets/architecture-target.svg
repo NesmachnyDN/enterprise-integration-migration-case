@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Target integration architecture</title>
+  <desc id="desc">Synthetic target architecture with lightweight agents and reusable enterprise integration capabilities</desc>
+  <rect width="1600" height="900" fill="#f7fbff"/>
+  <rect width="1600" height="92" fill="#071a3a"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="64" y="58" font-size="34" font-weight="700" fill="#fff">TO-BE · целевая интеграционная архитектура</text>
+    <text x="64" y="132" font-size="21" fill="#36536f">Легкие endpoint-компоненты и централизованные переиспользуемые интеграционные возможности</text>
+
+    <g fill="#fff" stroke="#a8cde9" stroke-width="2">
+      <rect x="84" y="235" width="220" height="84" rx="18"/>
+      <rect x="84" y="390" width="220" height="84" rx="18"/>
+      <rect x="84" y="545" width="220" height="84" rx="18"/>
+      <rect x="1296" y="235" width="220" height="84" rx="18"/>
+      <rect x="1296" y="390" width="220" height="84" rx="18"/>
+      <rect x="1296" y="545" width="220" height="84" rx="18"/>
+    </g>
+    <g fill="#163b63" font-size="20" font-weight="700" text-anchor="middle">
+      <text x="194" y="286">ERP Core</text>
+      <text x="194" y="441">Finance Hub</text>
+      <text x="194" y="596">Partner Gateway</text>
+      <text x="1406" y="286">DWH</text>
+      <text x="1406" y="441">Document Mgmt</text>
+      <text x="1406" y="596">Analytics</text>
+    </g>
+
+    <g fill="#dff2ff" stroke="#83bce3" stroke-width="2">
+      <rect x="355" y="244" width="205" height="66" rx="15"/>
+      <rect x="355" y="399" width="205" height="66" rx="15"/>
+      <rect x="355" y="554" width="205" height="66" rx="15"/>
+      <rect x="1040" y="244" width="205" height="66" rx="15"/>
+      <rect x="1040" y="399" width="205" height="66" rx="15"/>
+      <rect x="1040" y="554" width="205" height="66" rx="15"/>
+    </g>
+    <g fill="#153c62" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="458" y="283">Lightweight Agent</text>
+      <text x="458" y="438">Lightweight Agent</text>
+      <text x="458" y="593">Lightweight Agent</text>
+      <text x="1142" y="283">Lightweight Agent</text>
+      <text x="1142" y="438">Lightweight Agent</text>
+      <text x="1142" y="593">Lightweight Agent</text>
+    </g>
+
+    <rect x="630" y="205" width="340" height="475" rx="30" fill="#0b4e91"/>
+    <text x="800" y="260" font-size="27" font-weight="700" fill="#fff" text-anchor="middle">Enterprise Integration Platform</text>
+    <text x="800" y="297" font-size="17" fill="#d4ebff" text-anchor="middle">shared integration capabilities</text>
+
+    <g fill="#eaf6ff">
+      <rect x="684" y="340" width="232" height="54" rx="16"/>
+      <rect x="684" y="414" width="232" height="54" rx="16"/>
+      <rect x="684" y="488" width="232" height="54" rx="16"/>
+      <rect x="684" y="562" width="232" height="54" rx="16"/>
+    </g>
+    <g fill="#153c62" font-size="18" font-weight="700" text-anchor="middle">
+      <text x="800" y="374">Routing &amp; Delivery</text>
+      <text x="800" y="448">Adapters &amp; Processing</text>
+      <text x="800" y="522">Monitoring &amp; Audit</text>
+      <text x="800" y="596">Security Integration</text>
+    </g>
+
+    <g stroke="#5a9dcc" stroke-width="3" fill="none">
+      <path d="M304 277H355M560 277H630M970 277H1040M1245 277H1296"/>
+      <path d="M304 432H355M560 432H630M970 432H1040M1245 432H1296"/>
+      <path d="M304 587H355M560 587H630M970 587H1040M1245 587H1296"/>
+    </g>
+
+    <rect x="78" y="735" width="1444" height="112" rx="22" fill="#edf6fc"/>
+    <g fill="#36536f" font-size="18">
+      <text x="112" y="778">• транспортная логика отделена от приложений     • региональный routing layer исключен</text>
+      <text x="112" y="815">• наблюдаемость и безопасность становятся общими возможностями платформы     • legacy-компоненты выводятся после приемки миграции</text>
+    </g>
+  </g>
+</svg>
