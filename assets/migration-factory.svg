@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Migration Factory</title>
+  <desc id="desc">Repeatable enterprise integration migration process with classification, readiness gates, waves and feedback</desc>
+  <rect width="1600" height="900" fill="#f7fbff"/>
+  <rect width="1600" height="92" fill="#071a3a"/>
+  <g font-family="Arial,Helvetica,sans-serif">
+    <text x="64" y="58" font-size="34" font-weight="700" fill="#fff">MIGRATION FACTORY · повторяемая модель миграции</text>
+    <text x="64" y="132" font-size="21" fill="#36536f">Портфель интеграций превращается в управляемый поток решений, готовности, волн и обратной связи</text>
+
+    <g fill="#fff" stroke="#a9cce7" stroke-width="2">
+      <rect x="65" y="255" width="190" height="94" rx="20"/>
+      <rect x="315" y="255" width="190" height="94" rx="20"/>
+      <rect x="565" y="255" width="190" height="94" rx="20"/>
+      <rect x="815" y="255" width="190" height="94" rx="20"/>
+      <rect x="1065" y="255" width="190" height="94" rx="20"/>
+      <rect x="1315" y="255" width="220" height="94" rx="20"/>
+    </g>
+    <g fill="#163b63" font-size="19" font-weight="700" text-anchor="middle">
+      <text x="160" y="294">Discovery</text><text x="160" y="321" font-size="15" font-weight="400">inventory &amp; ownership</text>
+      <text x="410" y="294">Verification</text><text x="410" y="321" font-size="15" font-weight="400">actual configuration</text>
+      <text x="660" y="294">Classification</text><text x="660" y="321" font-size="15" font-weight="400">M1 · M2 · M3 · M4</text>
+      <text x="910" y="294">Readiness</text><text x="910" y="321" font-size="15" font-weight="400">READY · CONDITIONAL</text>
+      <text x="1160" y="294">Wave Planning</text><text x="1160" y="321" font-size="15" font-weight="400">risk &amp; dependencies</text>
+      <text x="1425" y="294">Cutover</text><text x="1425" y="321" font-size="15" font-weight="400">validate or rollback</text>
+    </g>
+    <g stroke="#5c9dca" stroke-width="3" fill="none">
+      <path d="M255 302H315M505 302H565M755 302H815M1005 302H1065M1255 302H1315"/>
+      <path d="M1425 349V415Q1425 447 1393 447H195Q160 447 160 412V349" stroke="#7bb5dd"/>
+    </g>
+    <text x="785" y="432" font-size="17" fill="#4c789b" text-anchor="middle">feedback: уточнение правил, оценок и readiness criteria после каждой волны</text>
+
+    <rect x="88" y="515" width="1424" height="282" rx="28" fill="#edf6fc"/>
+    <text x="125" y="560" font-size="23" font-weight="700" fill="#173c62">Планирование волн</text>
+
+    <g>
+      <rect x="125" y="610" width="245" height="112" rx="22" fill="#d8efff"/>
+      <rect x="397" y="610" width="245" height="112" rx="22" fill="#c9e8fb"/>
+      <rect x="669" y="610" width="245" height="112" rx="22" fill="#b8dcf4"/>
+      <rect x="941" y="610" width="245" height="112" rx="22" fill="#a9d2ee"/>
+      <rect x="1213" y="610" width="245" height="112" rx="22" fill="#96c5e7"/>
+    </g>
+    <g fill="#12375f" text-anchor="middle">
+      <text x="247" y="650" font-size="20" font-weight="700">PILOT</text><text x="247" y="681" font-size="16">проверка runbook</text><text x="247" y="705" font-size="16">и оценок</text>
+      <text x="519" y="650" font-size="20" font-weight="700">WAVE 1</text><text x="519" y="681" font-size="16">независимые</text><text x="519" y="705" font-size="16">низкорисковые</text>
+      <text x="791" y="650" font-size="20" font-weight="700">WAVE 2</text><text x="791" y="681" font-size="16">контролируемая</text><text x="791" y="705" font-size="16">сложность</text>
+      <text x="1063" y="650" font-size="20" font-weight="700">WAVE 3</text><text x="1063" y="681" font-size="16">hybrid / shared</text><text x="1063" y="705" font-size="16">dependencies</text>
+      <text x="1335" y="650" font-size="20" font-weight="700">WAVE 4</text><text x="1335" y="681" font-size="16">application</text><text x="1335" y="705" font-size="16">remediation</text>
+    </g>
+
+    <text x="125" y="768" font-size="17" fill="#4b6c88">Complexity и Readiness оцениваются независимо: сложная интеграция может быть READY, а простая — BLOCKED.</text>
+  </g>
+</svg>
