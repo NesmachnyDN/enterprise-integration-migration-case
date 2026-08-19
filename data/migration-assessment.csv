@@ -1,0 +1,21 @@
+id,configuration_verified,owner_confirmed,contract_complete,dependencies_known,infrastructure_ready,security_ready,test_data_available,rollback_feasible,change_window_agreed,readiness_comment
+INT-001,YES,YES,YES,YES,YES,YES,YES,YES,YES,Ready for pilot
+INT-002,YES,YES,YES,YES,YES,YES,YES,YES,YES,Ready for pilot
+INT-003,YES,YES,YES,YES,YES,YES,YES,YES,YES,Standard direct migration
+INT-004,YES,YES,YES,YES,YES,YES,YES,YES,YES,Standard direct migration
+INT-005,YES,YES,YES,YES,YES,YES,YES,YES,YES,Standard direct migration
+INT-006,YES,YES,YES,PARTIAL,YES,YES,YES,YES,PENDING,Shared endpoint dependency still being confirmed
+INT-007,YES,YES,YES,YES,YES,YES,YES,YES,YES,Security prerequisites complete
+INT-008,YES,YES,YES,YES,YES,PENDING,YES,YES,YES,Certificate provisioning pending
+INT-009,YES,YES,YES,YES,YES,PENDING,YES,YES,PENDING,Security approval and window pending
+INT-010,YES,YES,YES,YES,YES,YES,YES,YES,YES,Ready
+INT-011,YES,YES,YES,YES,YES,YES,YES,YES,YES,Ready
+INT-012,YES,YES,YES,YES,YES,YES,YES,YES,PENDING,Change window not finalized
+INT-013,YES,YES,YES,YES,YES,YES,YES,YES,YES,Ready
+INT-014,YES,YES,YES,PARTIAL,YES,YES,YES,YES,PENDING,Shared dependency and timing under review
+INT-015,YES,YES,YES,PARTIAL,YES,PENDING,YES,YES,PENDING,Hybrid and security prerequisites incomplete
+INT-016,YES,YES,YES,YES,YES,YES,YES,YES,YES,Ready
+INT-017,YES,YES,YES,YES,PENDING,YES,YES,YES,YES,Capacity verification pending
+INT-018,YES,YES,PARTIAL,YES,YES,YES,YES,NO,NO,Application remediation required before scheduling
+INT-019,YES,YES,PARTIAL,YES,YES,YES,LIMITED,NO,NO,Legacy packaging behavior must be redesigned
+INT-020,YES,YES,YES,PARTIAL,YES,PENDING,YES,YES,PENDING,Hybrid dependency and security work remain open
